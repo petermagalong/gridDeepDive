@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.main1 {
+    display: grid;
+    margin: 20px 100px;
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    grid-template: repeat(2,50px)/repeat(3,100px) ;
+    justify-content: start;
+    align-content: start;
+    grid-gap: 3px;
+    
+}
+
+.main2 {
+    
+    margin: 20px 100px;
+    width: 400px;
+    height: 150px;
+
+    display: grid;
+    border: 1px solid black;
+    grid-template: repeat(2,50px)/repeat(3,100px) ;
+    justify-content: center;
+    align-content: end;
+    grid-gap: 3px;
+    
+}
+
+.main3 {
+    
+    margin: 20px 100px;
+    width: 400px;
+    height: 150px;
+
+    display: grid;
+    border: 1px solid black;
+    grid-template: repeat(2,50px)/repeat(3,100px) ;
+    justify-content: space-between;
+    align-content: center;
+    grid-gap: 3px;
+    
+}
+
+.main4 {
+    
+    margin: 20px 100px;
+    width: 400px;
+    height: 150px;
+
+    display: grid;
+    border: 1px solid black;
+    grid-template: repeat(2,30px)/repeat(3,minmax(100px, 120px)) ;
+    justify-content: start;
+    justify-items: end;
+    align-items: center;
+    grid-gap: 3px;
+    
+}
+
+.main5
+ {
+    
+    margin: 20px 100px;
+    width: 400px;
+    height: 150px;
+
+    display: grid;
+    border: 1px solid black;
+    grid-template: repeat(2,70px)/repeat(3,minmax(100px, 132px)) ;
+    justify-content: stretch;
+    align-content: stretch;
+    grid-gap: 5px;
+    
+}
+
+.main5 div:nth-child(1){
+    justify-self: center;
+    align-self:  center;
+}
+
+.main5 div:nth-child(2){
+    justify-self: end;
+    align-self:  stretch;
+}
+
+.main5 div:nth-child(3){
+    justify-self: stretch;
+    align-self:  center;
+}
+
+.main5 div:nth-child(4){
+    justify-self: end;
+    align-self:  start;
+}
+
+.main5 div:nth-child(5){
+    justify-self: center;
+    align-self:  end;
+}
+
+.main5 div:nth-child(6){
+    justify-self: center;
+    align-self:  stretch;
+}
+.borders {
+    border: 1px solid black;
+}

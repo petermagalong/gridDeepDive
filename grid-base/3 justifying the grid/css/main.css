@@ -1,0 +1,11 @@
+/* Put your code here */
+
+.grid {
+
+    display: grid;
+   grid-template: 100px 100px 100px/ repeat(auto-fit, minmax(100px, 1fr));
+    
+   justify-items: center;
+}
+
+
